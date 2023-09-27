@@ -22,10 +22,10 @@
       <div class="logo">Thinkfulbnb</div>
       <nav>
         <ul id="menu">
-          <li><a>Stay</a></li>
-          <li><a>About</a></li>
-          <li><a>Ideas</a></li>
-          <li><a>Host</a></li>
+          <li><a href="#stay">Stay</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ideas">Ideas</a></li>
+          <li><a href="#host">Host</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +42,7 @@
               <input
                 id="location"
                 type="text"
-                name="name"
+                name="location"
                 placeholder="Search destination"
               />
             </div>
@@ -51,7 +51,7 @@
               <input
                 id="start-date"
                 type="date"
-                name="name"
+                name="ariive-date"
                 pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}"
                 placeholder="mm/dd/yyyy"
               />
@@ -61,16 +61,16 @@
               <input
                 id="leave-date"
                 type="date"
-                name="name"
+                name="depart-date"
                 placeholder="mm/dd/yyyy"
               />
             </div>
             <div class="item">
               <label for="type">Type</label>
               <select id="type" name="" size="1">
-                <option value="arial">Apartment</option>
-                <option value="times">Barn</option>
-                <option value="comicsans">Castle</option>
+                <option value="apartment">Apartment</option>
+                <option value="barn">Barn</option>
+                <option value="castle">Castle</option>
                 <option value="houseboat">Houseboat</option>
                 <option value="tiny-house">Tiny House</option>
                 <option value="yacht">Yacht</option>
