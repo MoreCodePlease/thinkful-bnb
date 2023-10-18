@@ -158,4 +158,16 @@ footer p {
     width: 100%;
   }
 
+  #stay .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  label {
+    flex: content;
+    
+  }
+
 }
