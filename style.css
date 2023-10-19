@@ -151,7 +151,7 @@ footer p {
   
   .group {
     flex-direction: row;
-    flex-wrap: wrap;
+    
   }
 
   main img {
@@ -170,4 +170,7 @@ footer p {
     
   }
 
+  form select, form input {
+  width: 100%;
+}
 }
